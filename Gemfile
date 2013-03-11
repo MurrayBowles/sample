@@ -10,6 +10,10 @@ group :development, :test do
 	gem 'rspec-rails', '2.9.0'
 end
 
+group :development do
+	gem 'annotate', '2.5.0'
+end
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -36,6 +40,7 @@ source 'https://rubygems.org'
 
 #gem 'rails', '3.2.12'
 gem 'bootstrap-sass', '2.1'
+gem 'bcrypt-ruby', '3.0.1'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
